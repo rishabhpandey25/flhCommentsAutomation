@@ -1,0 +1,86 @@
+# Node modules for both frontend and backend
+node_modules/
+
+# Electron build output
+/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled JavaScript/TypeScript output
+/build/
+**/*.js
+**/*.js.map
+**/*.d.ts
+*.tsbuildinfo
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Output of TSC
+out/
+
+# React build files
+/frontend/public/build/
+/frontend/public/static/
+
+# Database
+/src/backend/db/documents/database.json
+
+# IDE and editor files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+tmp/
+temp/
+.cache/
+*.tmp
+*.temp
+
+# Coverage and test results
+coverage/
+.nyc_output/
+.jest/
+*.log
+
+# Package lock files (optional, depending on your setup)
+package-lock.json
+yarn.lock
+
+# Compiled Electron files and other artifacts
+electron/dist/
+electron-builder-config.yaml
+
+# Compiled output for Webpack
+webpack-stats.json
+/.webpack/
+
+# Ignore backups
+*.bak
+
+# Exclude Git hooks
+.husky/
+
+# Ignore lowdb lock file
+database.json.lock
+
+# Exclude secret keys or personal access tokens (PAT)
+/src/backend/db/orgsList.json
+
